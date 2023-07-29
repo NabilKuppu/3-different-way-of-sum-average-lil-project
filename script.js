@@ -1,16 +1,16 @@
 "use strict";
-const marks = [75.25, 65, 80, 35.45, 99.5];
+// const marks = [75.25, 65, 80, 35.45, 99.5];
 const Name = prompt(`What is Your Name`);
-// const inputMarks = [
-//   prompt("What is Your mark in F-101"),
-//   prompt("What is Your mark in F-102"),
-//   prompt("What is Your mark in F-103"),
-//   prompt("What is Your mark in F-104"),
-//   prompt("What is Your mark in F-105"),
-// ];
-// const marks = inputMarks.map((num) => {
-//   return Number(num);
-// });
+const inputMarks = [
+  prompt("What is Your mark in F-101"),
+  prompt("What is Your mark in F-102"),
+  prompt("What is Your mark in F-103"),
+  prompt("What is Your mark in F-104"),
+  prompt("What is Your mark in F-105"),
+];
+const marks = inputMarks.map((num) => {
+  return Number(num);
+});
 
 /*Using Loop method
 let sum = 0;
