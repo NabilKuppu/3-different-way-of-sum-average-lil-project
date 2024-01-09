@@ -37,7 +37,10 @@ const sum = marks.reduce((accumulator, currentValue) => {
 const average = (sum / marks.length).toFixed(2);
 document.getElementById(
   "name"
-).innerHTML = `Congratulations 🔥🔥 , Mr. ${Name}`;
+).innerHTML = `Congratulations 🔥🔥 , Mr. faaltu  ${Name}`;
 document.getElementById(
   "demo"
-).innerHTML = `Your have got : ${average} Marks in Average`;
+).innerHTML = `Your have got : ${average} Marks in Average and You  ${average>=33?"failed":'passed'} in the exam`;
+
+
+
